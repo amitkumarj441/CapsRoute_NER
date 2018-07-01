@@ -7,4 +7,5 @@ Capsule Network for Named Entity Recognition
 ```
 python -m unittest -v common.vocabulary_test
 python -m unittest -v common.utils_test
+python -m unittest -v common.tsv_corpus_test
 ```
