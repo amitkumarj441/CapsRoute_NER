@@ -6,4 +6,5 @@ Capsule Network for Named Entity Recognition
 > cd common
 ```
 python -m unittest -v common.vocabulary_test
+python -m unittest -v common.utils_test
 ```
