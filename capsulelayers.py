@@ -1,8 +1,6 @@
 """
 Some key layers used for constructing a Capsule Network. These layers can used to construct CapsNet on other dataset, 
 not just on MNIST.
-
-Author: Amit Kumar Jaiswal, E-mail: `amitkumarj441@gmail.com`
 """
 
 import keras.backend as K
