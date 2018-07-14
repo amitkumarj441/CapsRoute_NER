@@ -1,11 +1,6 @@
 # CapsNet_NER
 Capsule Network for Named Entity Recognition
 
-# Instructions to Run
+# Dataset
 
-> cd common
-```
-python -m unittest -v common.vocabulary_test
-python -m unittest -v common.utils_test
-python -m unittest -v common.tsv_corpus_test
-```
+> Conll2003: dev, train, test 
