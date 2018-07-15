@@ -3,15 +3,21 @@ Capsule Routing for Named Entity Recognition
 
 # Dataset
 
-> Conll2003: dev, train, test 
-> Rotten Tomatoes Dataset: train, test
+-> Conll2003: dev, train, test 
+
+-> Rotten Tomatoes Dataset: train, test
 
 # Results
 
 
-|       Model        |       CoNLL-2003       |     Rotten Tomatoes Dataset     |
-|--------------------|-----------------Validation Accuracy----------------------|
-|--------------------|------------------------|---------------------------------|
-| CapsNet            |        96.47           |              -                  |
-| CapsNetGRU+FastText|          -             |            85.86                |          
-| BLSTM+FastText     |        89.72           |              -                  |                 
+|       Model        |       CoNLL-2003       |     Rotten Tomatoes Dataset     | Validation Accuracy |
+|--------------------|------------------------|---------------------------------|---------------------|
+| CapsNet            |   :heavy_check_mark:   |     :heavy_multiplication_x:    |        96.47        |
+| CapsNetGRU+FastText|:heavy_multiplication_x:|        :heavy_check_mark:       |        85.86        |          
+| CapsNetGRU+Toxic   |:heavy_multiplication_x:|        :heavy_check_mark:       |        85.74        |
+| BLSTM + CBOW       |   :heavy_check_mark:   |     :heavy_multiplication_x:    |        89.65        |
+| BLSTM + Skipgram   |   :heavy_check_mark:   |     :heavy_multiplication_x:    |        89.78        |
+| BLSTM+FastText     |   :heavy_check_mark:   |     :heavy_multiplication_x:    |        89.72        | 
+| BLSTM+Glove840B300d|   :heavy_check_mark:   |     :heavy_multiplication_x:    |        97.01        |
+| BLSTM+Glove6B300d  |   :heavy_check_mark:   |     :heavy_multiplication_x:    |        97.60        |
+| BLSTM+Glove42B300d |   :heavy_check_mark:   |     :heavy_multiplication_x:    |        97.75        |
