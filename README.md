@@ -2,7 +2,7 @@
 Capsule Routing for Named Entity Recognition
 
 # Model
-![](result/capsmodel_graph.jpg)
+![](result/capsmodel_graph.png)
 
 # Dataset
 
